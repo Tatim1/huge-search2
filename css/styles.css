@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a,
+input[type="submit"],
+input[type="button"],
+button {
+	text-decoration: none;
+
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background: #f1f1f1;
+    color: rgba(145,145,145,0.7);
+}
+.hugesearch {
+	padding-top: 40px;
+}
+.hugesearch-form {
+	margin: 0 auto;
+	position: relative;
+	width: 80%;
+}
+
+.hugesearch-input {
+	width: 100%;
+	padding: 0 80px 0 10px;
+	border: none;
+	background: transparent;
+	font-size: 110px;
+	color: #ec5a62;
+}
+
+.hugesearch-input::-webkit-input-placeholder {
+	color: #c2c2c2;
+}
+
+
+.hugesearch-submit {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	text-indent: 100px;
+	overflow: hidden;  
+	right: 30px;
+	top: 45%;
+	background: transparent url('../img/magnifier.svg') no-repeat center center;
+	background-size: 100%; 
+	border: none;
+	margin: -30px;
+}
+.hugesearch-submit:hover {
+	width: 100px;
+	height: 100px;
+}
+
+.hugesearch-content {
+	color: #333;
+	margin-top: 40px;
+	width: 100%;
+	padding: 0 10%;
+	font-size: 0;
+}
+
+.column {
+	font-size: 16px;
+	width: 30%;
+	display: table-cell;
+	margin: 0 5%;
+	
+}
+
+.hugesearch-list{
+	padding: 0;
+	margin: 3px;
+	list-style: none;
+}
+
+
+.column:nth-child(2) {
+	margin: 0 5%;
+}
+
+.column-title {
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #c2c2c2;
+}
+.hugesearch-list a {
+	padding: 12px;
+	display: block;
+	margin: 5px 0;
+	cursor: pointer;
+	border-radius: 5px;
+	background: rgba(118,117,128,0.05);
+	color: rgba(145,145,145,0.7);
+}
+.hugesearch-list a:hover{
+	color: #EC5A62;
+}
+
+.hugesearch-list a:hover,
+.hugesearch-list a:focus {
+	background: rgba(118,117,128,0.1);
+}
+
+.hugesearch-list img {
+	display: inline-block;
+	width: 50px;
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+.hugesearch-content>*:first-of-type img {
+	-webkit-border-radius: 50%;
+	        border-radius: 50%; 
+} 
+
+
+.hugesearch-list h3 {
+	font-size: 16px;
+	display: inline-block;
+	margin: 0 0 0 0;
+}
+
